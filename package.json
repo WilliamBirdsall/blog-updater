@@ -1,0 +1,15 @@
+{
+  "name": "blog-updater",
+  "version": "1.0.0",
+  "description": "Personal utility for updating records for my personal blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Birdsall",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "mongodb": "^3.3.4"
+  }
+}
