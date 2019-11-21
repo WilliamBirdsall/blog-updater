@@ -17,7 +17,7 @@ function displayHelpText() {
 }
 
 function createUrlTitle(title) {
-    return title.toLowerCase().replace(' ', '-');
+    return title.toLowerCase().replace(/\s+/g, '-');
 }
 
 function createTagArray(tagsString) {
@@ -72,6 +72,8 @@ function main() {
         publishDate: getPublishDate(),
         urlTitle: createUrlTitle(args.t)
     }
+
+    console.log(queryParams);
 
     addPostToDb(queryParams);
 }
