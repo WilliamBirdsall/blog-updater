@@ -9,7 +9,7 @@
   "author": "William Birdsall",
   "license": "ISC",
   "dependencies": {
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "mongodb": "^3.3.4"
   }
 }
